@@ -1,0 +1,167 @@
+body {
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  background-color: #0174DF;
+}
+.header-text {
+  font-size: 1px;
+  padding: 1px;
+  width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.contents {
+  width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+}
+.menu a:link{
+  color: #0000ff;
+}
+.menu a:hover 
+{ color: #ff0000; }
+.main {
+  float: left;
+  width: 670px;
+  margin-bottom: 100px;
+}
+/*.main.infomation ul {
+  list-style: none;
+}
+.main.infomation li{
+  float: left;
+}*/
+
+.news {
+  text-align: center;
+  background: #0174DF;
+  color: white;
+  display: block;
+  margin: 20px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.product{
+  text-align: center;
+  background: #ff4500;
+  color: white;
+  display: block;
+  margin: 20px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.infomation-item table {
+  border-collapse: collapse;
+}
+.infomation-item table tr {
+  border-bottom: 1px solid #ccc;
+}
+.infomation-detail {
+  margin-top: 60px;
+}
+.infomation-detail-image {
+  float: left;
+}
+.infomation-detail-text {
+  float: right;
+  width: 440px;
+  margin-left: 30px;
+}
+.text {
+  margin-bottom: 20px;
+}
+.sidebar {
+  float: right;
+  margin: 5px;
+  padding: 5px;
+  width: 176px;
+}
+
+img.banner{
+  width: 170px;
+  height: 80px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.menu ul {
+list-style: none;
+padding:0;
+margin:0;
+}
+
+.menu li {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.menu li a {
+  display: block;
+
+  padding: 1px;
+  text-decoration: none;
+  color: #333;
+  width: 80px;
+  margin: 30px;
+  text-align: center;
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+.footer {
+  flex-wrap: wrap;
+
+}
+.base {
+  display: flex;
+  background-color: #0174DF;
+}
+.category {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.left {
+  margin-top: 22px;
+  margin-right: auto;
+  margin-left: auto;
+  float: left;
+  width: 300px
+}
+.left h2 {
+  font-size: 16px;
+}
+.left p {
+  font-size: 3px;
+}
+.center {
+  font-size: 3px;
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+  /*flex: 1;*/
+}
+.right {
+  font-size: 3px;
+  float: right;
+  width: 300px;
+}
+
+h4 {
+  	border-bottom: 3px solid #0174DF;
+}
+h6 {
+	padding-bottom: .1em;
+	border-bottom: 1px solid #ccc;
+}

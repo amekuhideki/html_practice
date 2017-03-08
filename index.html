@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <title>表を使ってみる</title>
+    <style type="text/css">
+    <!--
+    p#abc{
+      color:#FF0000;
+    }
+    p.def{
+      color:#FF00FF;
+    }
+    -->
+    </style>
+  </head>
+  <body bgcolor="#CCFFFF">
+    <h1>見出し1<h1>
+    <div>レイアウトコンテナ</div>
+    <h2 style="color:#009900;">CSSをHTMLに記述するテスト(ID属性編)<h2>
+    <p>このサンプルは、CSSをHTMLに記述するテストです。</p>
+    <p id="abc">ID属性でスタイルを指定しているので、この行は赤色になります。</p>
+    <h2>CSSをHTMLに記述するテスト(CLASS属性)</h2>
+    <p>このサンプルはCSSをHTMLに記述するテストです</p>
+    <p class="def">CLASS属性でスタイルを指定しているので、この行は紫色になります。</p>
+    <p class="def">ID属性と違い、CLASS属性では同じキーワード(今回はdef)を複数使用することができます。</p>
+    <hr>
+    これから、ここに
+    色々な文章を
+    書いていきます。
+    <hr>
+    <font color="#FF0000" size="+2">赤色の大きな文字</font>
+    <font size="-1">小さな文字</font>
+    <p>段落を入れます。<font color="#00FF00">緑色の文字</font>
+    <font size="-1">小さな文字</font></p>
+    <a href="http://kouza.hamuinu.com/html/">HTML講座トップ
+    </a>
+
+    <table bgcolor="#FF00FF" crllspacing="0">
+      <tr>
+        <td bgcolor="#FFFFFF">これは「cellspacing」です</td>
+      </tr>
+    </table>
+
+    <table bgcolor="#FF00FF" border="0">
+      <tr>
+        <td bgcolor="FFFFFF">これは「border」です</td>
+      </tr>
+    </table>
+
+    <table border="1">
+      <tr>
+        <td>1行目1列目</td>
+        <td>1行目2列目</td>
+      </tr>
+      <tr>
+        <td>2行目1列目</td>
+        <td>2行目2列目</td>
+      </tr>
+      <tr>
+        <td>3行目1列目</td>
+        <td>3行目2列目</td>
+      </tr>
+    </table>
+  </body>
+</html>

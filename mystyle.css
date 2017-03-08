@@ -1,0 +1,44 @@
+body {
+  margin: 0px;
+  background-color: skyblue;
+}
+
+/*ここがページ全体の枠の部分です*/
+.all{
+  width: 800px;
+  border-color: #999999;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #ffffff;
+  margin-right: auto;
+  margin-left: auto;
+}
+/*ここまでがページ全体の枠の部分です*/
+/*ここがメニュー部分です*/
+.menu{
+  background-color: #333333;
+  padding: 5px;
+  font-size: 1em;
+  text-align: center;
+}
+
+h1 { color: blue; font-size: 1.2em; }
+h2 { color: dimgray; }
+
+p {
+  color: dimgray;
+  line-height: 1.3em;
+}
+
+a:link { color: silver; }
+a:visited { color: silver; }
+
+a.hover {
+  color: greenyellow;
+  background-color: #666666;
+}
+
+address{
+  font-style: normal;
+  text-align: center
+}
