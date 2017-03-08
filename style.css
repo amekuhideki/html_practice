@@ -23,7 +23,7 @@ body {
 .menu a:link{
   color: #0000ff;
 }
-.menu a:hover 
+.menu a:hover
 { color: #ff0000; }
 .main {
   float: left;
@@ -126,6 +126,7 @@ margin:0;
 .base {
   display: flex;
   background-color: #0174DF;
+  padding-bottom: 40px;
 }
 .category {
   margin-right: auto;
