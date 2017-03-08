@@ -65,6 +65,9 @@ body {
 .infomation-item table tr {
   border-bottom: 1px solid #ccc;
 }
+.infomation-text {
+  text-decoration: underline;
+}
 .infomation-detail {
   margin-top: 60px;
 }
